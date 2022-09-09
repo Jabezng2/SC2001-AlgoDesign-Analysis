@@ -1,7 +1,7 @@
 import pandas as pd
 import random
 
-ARRSIZE = 1000 #array size
+ARRSIZE = 10000000 #array size
 
 ascending_sorted = [x for x in range(0, ARRSIZE)] #sorted array in ascending order
 descending_sorted = [x for x in range(ARRSIZE, 0, -1)] #sorted array in descending order
